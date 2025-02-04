@@ -12,12 +12,12 @@ O sistema está online para visualização em: https://quiker-frontend-productio
   - ✅ 5a: Controle de acesso
   - ✅ 5b: Upload de imagem (através do Cloudflare R2)
   - ✅ 5c: Histórico de edições (mostrado na página de edição do post, quando há edições)
-  - ✅ 5d: Contador de visualizações (\*conta as visualizações únicas por ip)
-  - ✅ 5e: Contador de curtidas/não curtidas (\*somente para usuários logados)
+  - ✅ 5d: Contador de visualizações
+  - ✅ 5e: Contador de curtidas/não curtidas
 - ✅ 6: CRUD de comentários com:
   - ✅ 6abc: Controle de edição/remoção
-  - 6d: Marcador de remoção
-  - ✅ 6e: Notificação por e-mail (através do Mailtrap para teste)
+  - ✅ 6d: Marcador de remoção
+  - ✅ 6e: Notificação por e-mail (através do Mailtrap/SMTP - precisa fazer conta e configurar as chaves)
 - ✅ 7: Rota para relatório de posts.
 
 ## Stack
