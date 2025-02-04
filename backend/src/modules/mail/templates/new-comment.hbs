@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Novo Comentário</title>
+    <style>
+      body { font-family: Arial, sans-serif; line-height: 1.6; color: #333;
+      max-width: 600px; margin: 0 auto; padding: 20px; } .header {
+      background-color: #f8f9fa; padding: 20px; border-radius: 5px;
+      margin-bottom: 20px; } .content { background-color: #ffffff; padding:
+      20px; border-radius: 5px; border: 1px solid #e9ecef; } .button { display:
+      inline-block; padding: 10px 20px; background-color: #007bff; color:
+      #ffffff; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Olá {{userName}},</h2>
+      <p>Você recebeu um novo comentário em seu post "{{postTitle}}".</p>
+    </div>
+
+    <div class="content">
+      <p><strong>{{commentUser}}</strong> comentou:</p>
+      <div
+        style="background-color: #f8f9fa; padding: 15px; border-radius: 5px;"
+      >
+        {{{commentContent}}}
+      </div>
+
+      <a href="{{postLink}}" class="button">Ver comentário</a>
+    </div>
+
+    <p style="margin-top: 20px; color: #6c757d; font-size: 0.9em;">
+      Este é um e-mail automático. Por favor, não responda.
+    </p>
+  </body>
+</html>
